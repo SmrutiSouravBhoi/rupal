@@ -1,0 +1,19 @@
+pipeline{
+    agent any
+    stages{
+        stage(ContinousDownload){
+            steps{
+                echo "Downloading the code from GitHub"
+                git branch: 'master',url: 'https://github.com/SmrutiSouravBhoi/static-web-app.git'
+                echo "Downloading Completed"
+            }
+        }
+        stage(ContinousDeployment){
+            steps{
+                echo "Deploying TheCode"
+                sh 'scp -r /var/lib/jenkins/workspace/* ubuntu@13.212.197.141:/var/www/html/'
+                echo "Deployment Completed"
+            }
+        }
+    }
+}
