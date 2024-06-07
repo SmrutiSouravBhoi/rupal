@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Driver {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double a,b,c,res;
+
+        System.out.println("Enter any first number: ");
+        a = sc.nextDouble();
+        
+        System.out.println("Enter any second number: ");
+        b = sc.nextDouble();
+
+        res = a+b;
+
+        System.out.println("Sum of first two numbers: "+ res);
+
+        System.out.println("Enter any third number: ");
+        c = sc.nextDouble();
+        
+        res = res + c;
+        System.out.println("Final result: "+ res);
+
+    }
+}

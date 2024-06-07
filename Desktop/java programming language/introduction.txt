@@ -1,0 +1,8 @@
+INTRODUCTION :
+
+An Electronic Voting Machine (EVM) is a device used for 	conducting electronic voting in elections. It is a specialized 	electronic device designed to record votes accurately and 	securely. EVMs are used to replace traditional paper ballot 	systems in many countries around the world.
+The EVM operates through a series of buttons or symbols 	representing different candidates or political parties. Voters 	press the button or symbol as per their preferred choice, and the 	vote is recorded electronically. The EVMs have built-in security 	features to prevent tampering and ensure the correctness of the 	voting process.
+
+EVMs offer several advantages over traditional paper ballot 	systems. They can provide faster results, reduce human errors 	in  vote  counting,  and  eliminate  problems  like  invalid  or 	improperly marked ballots. EVMs also have the potential to 	reduce  the  cost  of  conducting  elections  and  minimize 	logistical challenges associated with transporting and storing 	paper ballots.
+
+However, the adoption of EVMs has also raised concerns about their 	security and chances of hacking or manipulation. Election authorities 	and manufacturers of EVMs have implemented various security 	measures, such as encryption and tamper-proof seals, to address these 	concerns and ensure the integrity of the voting process.
